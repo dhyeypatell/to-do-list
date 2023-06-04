@@ -1,3 +1,5 @@
 ### To-Do List App
 
-- Built a to-do list app
+- Make a to-do list
+- Add, remove, and manage tasks
+- Use `npm run dev`
