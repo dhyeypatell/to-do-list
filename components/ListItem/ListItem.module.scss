@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  margin-top: 15px;
+
+  li {
+    border: 1px solid black;
+    background-color: #ffcccb;
+    list-style-position: inside;
+    width: 80%;
+  }
+
+  li:hover {
+    outline: 1px solid black;
+  }
+
+  li,
+  button {
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .isDone {
+    background-color: #90ee90;
+  }
+
+  button {
+    border: 1px solid black;
+    border-left: none;
+  }
+
+  button:hover {
+    outline: 1px solid black;
+  }
+}

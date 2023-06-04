@@ -1,0 +1,21 @@
+form {
+  display: flex;
+  align-items: center;
+
+  label,
+  input {
+    margin-right: 18px;
+    font-size: 16px;
+  }
+
+  input {
+    border: 1px solid black;
+    border-radius: 2.5px;
+    padding: 10px;
+    overflow: scroll;
+  }
+
+  input:focus-visible {
+    outline: 1px solid black;
+  }
+}
